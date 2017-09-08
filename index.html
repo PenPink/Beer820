@@ -1,0 +1,17 @@
+<html>
+	<head>
+	<title>Beer</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+	<script src="Beer.js"></script>
+	<script src="build/main.bundle.js"></script>
+		<div id="frmSearch">
+			<h1>Find my beer...</h1>
+			<p>Name : <input type="text" id="txtSearch"/></p><br>
+			<p>Yeast : <input type="text" id="yeast"/></p>
+			<button id="cmdSearch" class="btn info" onclick="toSearch(document.getElementById('txtSearch').value,document.getElementById('yeast').value)">Search</button>
+		</div>
+		<div id="table_result"></div>
+	</body>
+</html>
